@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap HTML - Form - Buoi 4</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="height: 4000px;">
+
+    <!-- Mở bảng 1 -->
+    <form action="">
+        <table border="1">
+            <tbody>
+
+                <tr>
+                   <th colspan="2" align="center">ĐĂNG KÝ</th>
+                </tr>
+                
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input type="text" placeholder="Nhập fullname">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>User Name</td>
+                    <td>
+                        <input type="text" placeholder="Nhập tên đăng nhập">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input type="password" placeholder="Nhập mật khẩu">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Nhập lại Password</td>
+                    <td>
+                        <input type="password" placeholder="Nhập lại mật khẩu">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Giới tính</td>
+                    <td>
+                        <input type="radio" name="gender" id=""> Nam
+                        <input type="radio" name="gender" id=""> Nữ
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td>
+                        <select name="day_ob">
+                            <option value="">Ngày 1</option>
+                            <option value="">Ngày 2</option>
+                            <option value="">Ngày 3</option>
+                            <option value="">Ngày 4</option>
+                        </select>
+
+                        <select name="month_ob">
+                            <option value="">Tháng 1</option>
+                            <option value="">Tháng 2</option>
+                            <option value="">Tháng 3</option>
+                            <option value="">Tháng 4</option>
+                        </select>
+
+                        <select name="year_ob">
+                            <option value="">Năm 1</option>
+                            <option value="">Năm 2</option>
+                            <option value="">Năm 3</option>
+                            <option value="">Năm 4</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Avatar</td>
+                    <td>
+                        <input type="file" id="avatar" accept="image/png, image/jpeg">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Sở thích</td>
+                    <td>
+                        <input type="checkbox"> Xem phim
+                        <input type="checkbox"> Thể thao
+                        <input type="checkbox"> Đấm nhau
+                    </td>
+                </tr>
+
+                <tr>
+                   <td colspan="2" align="center">
+                    <button type="reset">Reset</button>
+                    <button type="submit">OK</button>
+                   </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <!-- Hết bảng 1 -->
+
+    <!-- Mở bảng 2 pỏnhub -->
+    <form action="">
+        <table style="background-color: black; border-collapse:collapse;" border="1" >
+
+            <tr>
+                <td style="color: white; text-align: center;">
+                    <p>
+                        <h1 style="margin: 0 0 0 0;">Sign up for free</h1>
+                        <h6 style="margin: 0 0 0 0; margin-bottom: 20px;">and enhance your experence</h6>
+                    </p>
+                </td>
+
+            <tr>
+                <td>
+                <input type="email" placeholder="Email" size="50" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" placeholder="Username (6+ characters)" size="50" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                <input type="password" placeholder="Password (6+ characters)" size="50" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="color: white;">
+                    <button 
+                    style=" font-size: 24px; background-color: grey; color: white; border: 1px solid #555555; cursor: pointer;" 
+                    type="submit">Sign Up!</button> 
+                    or 
+                    <a href="#" style="color: orange; text-decoration: none;">Log in</a>
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td style="color: white;">
+                   By signing up, you agree to our
+                       <a href="#" style="color: orange; text-decoration: none;">Terms and Conditions</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="#" style="color: orange; text-decoration: none;">Resend confirmation email</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <!-- Hết bảng pỏnhub -->
+
+    <!-- Porn hub signup table v2 -->
+    <form action="">
+        <div class="sign_in_table">
+            <div class="sign_in_header">
+                <h1>Sign up for free</h1>
+                <p>and enhance your experience</p>
+            </div>
+
+            <div class="sign_in_input">
+                <input type="text" name="email" id="" placeholder="Email" required> <br>
+                <input type="text" name="user_name" id="" placeholder="Username (6+ characters)" required> <br>
+                <input type="password" name="psw" id="" placeholder="Password (6+ characters)" required> <br>
+            </div>
+
+            <div class="sign_in_button">
+                <button type="submit" class="btn">Sign Up!</button>
+                 <small>or</small>
+                <a href="#" class="log_in_button">Log in</a>
+            </div>
+            
+            <div class="sign_in_subtext">
+                <p>
+                    By signing up, you agree to our <span class="primary_text"> Terms and Conditions</span>
+                </p>
+                <p class="primary_text">Resend confirmation email</p>
+            </div>
+            
+        </div>
+
+    </form>
+    <!-- Het bang pornhub table -->
+<br>
+
+    <!-- Mo bang 3 -->
+    <form action="" class="xvideos">
+        <div class="nav_but">
+            <button>Load next 10 comments</button>
+            <button>Load all comments</button>
+        </div>
+
+        <div class="nav_block">
+            <input type="text" placeholder="Your name (Optional)">
+            <textarea rows="3" placeholder="Write your message"></textarea>
+            
+            <div class="nav_but" style="text-align: right; padding: .3rem .6rem;">
+                <button type="reset" style="border: none;">Cancel</button>
+                <button type="submit">Send</button>
+            </div>
+        </div>
+    </form>
+    <!-- Het bang 3 -->
+<br>
+<br>
+
+    <!-- Mo bang 4 -->
+    <form action="">
+
+        <div class="main_block">
+            <div class="title_header">
+                <h1>members</h1>
+                <h4>Create a new account</h4>
+            </div>
+            <hr>
+
+            <table class="login_table">
+                <tbody>
+                    <tr>
+                        <td width="30%">Your email (login):</td>
+                        <td><input type="text" placeholder="Your email"></td>
+                    </tr>
+
+                    <tr>
+                        <td width="30%">Profile name:</td>
+                        <td><input type="text" placeholder="Your profile name"></td>
+
+                    <tr>
+                        <td width="30%">Password:</td>
+                        <td><input type="password" placeholder="Enter your password"></td>
+                    </tr>
+
+                    <tr>
+                        <td width="30%">Password again:</td>
+                        <td><input type="password" placeholder="Enter your password again"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+            
+            <div class="sub_checkbox">
+                <input type="checkbox"> By signing up, you agree to our <u>Terms of service</u> and our <u>Privacy policy</u>.
+            
+            </div>
+
+            <button class="next_btn"> <i>Next</i> </button>
+
+        </div>
+    </form>
+
+    <!-- Het bang 4 -->
+</body>
+</html>

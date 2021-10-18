@@ -1,0 +1,206 @@
+/* css pornhub signin */
+.sign_in_table {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    width: 350px;
+    max-width: calc(100% - 3rem);
+    padding: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.sign_in_header {
+    text-align: center;
+    color: white;
+
+}
+
+
+.sign_in_header h1 {
+    margin: 0;
+    padding-top: 30px;
+    font-size: 200%;
+    
+}
+
+.sign_in_header p {
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 10px;
+}
+
+.sign_in_input input {
+    background: #000;
+    -webkit-writing-mode: horizontal-tb !important;
+    width: calc(100% - 1rem);
+    border: 1px solid #292929;
+    color: #fff;
+    display: block;
+    padding: .6rem;
+    margin-bottom: .8rem;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: .7rem 1.2rem;
+    background-color: #292929;
+    color: #d0d0d0;
+    border-radius: 4px;
+    margin-top: .5rem;
+    margin-right: .8rem;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    /* transform: rotateX(90); */
+}
+
+.sign_in_button small {
+    color: #fff;
+    margin-right: .8rem;
+}
+
+.sign_in_button a {
+    color: orange;
+    text-decoration: none;
+}
+
+.sign_in_button a:hover {
+    color:red;
+    cursor: pointer;
+}
+
+.sign_in_subtext {
+    font-size: 11px;
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
+.primary_text {
+    color: orange;
+}
+
+.primary_text:hover{
+    cursor: pointer;
+}
+
+/* Het css pornhub */
+
+
+.xvideos {
+    position: relative;
+    width: 350px;
+    max-width:calc(100%-3rem);
+    background-color: blue;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav_block {
+    position: relative;
+    pad: .3rem;
+    margin-top: 1rem;
+    border: 1px solid #2362ed;
+
+}
+
+.nav_block input {
+    padding: .3rem;
+    width: calc(100% - 1rem);
+}
+
+.nav_block textarea {
+    padding: .3rem;
+    width: calc(100% - 1rem);
+}
+
+.nav_but button {
+    display: inline-block;
+    background-color: blue;
+    padding: .3rem .6rem;
+    border: 1px solid #2362ed;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+}
+
+.nav_but button:hover {
+    cursor: pointer;
+}
+
+/* Het css xlxx */
+
+/* mo css xvideos */
+
+.main_block {
+    margin-top: -.8rem;  
+    width: 500px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 500px;
+    display: block;
+}
+
+.title_header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 1.3rem 0 1rem 0;
+    margin: 0;
+}
+
+.title_header h4 {
+    margin: 0;
+    padding: .3rem 0;
+}
+
+.login_table {
+    margin-top: 1rem;
+    font-size: 13px;
+    text-align: right;
+    border: 0;
+    width: 100%;
+}
+
+.login_table input {
+    display: block;
+    margin: .25rem;
+    margin-left: 1/3rem;
+    width: calc(100% - 3rem);
+    padding: .6rem;
+    background-color: #292929;
+    border: 1px solid grey;
+    color: #fff;
+}
+
+.login_table input:hover {
+    cursor: text;
+}
+
+.sub_checkbox {
+    font-size: 13px;
+    margin: 1rem 0;
+}
+
+.next_btn {
+    padding: .8rem 1.2rem;
+    margin-top: .6rem;
+    margin-right: .8rem;
+    background-color: #d0d0d0;
+    color: #292929;
+    border: none;;
+    display: inline-block;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
